@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>People — Center for AI Research</title>
+  <meta name="description" content="Faculty, researchers, students and alumni.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <strong>Center for AI Research</strong>
+        <span>[University Name] · Department of Computer Science</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="people.html" aria-current="page">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="join.html">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="page-intro">
+        <p class="eyebrow">People</p>
+        <h1>Our team</h1>
+        <p>The Center is made up of faculty, research staff, postdocs and students from several departments. Click a faculty member to see their personal page.</p>
+      </section>
+
+      <h2>Faculty</h2>
+      <div class="people-grid">
+        <!-- To add a faculty member: copy one <a class="card person"> block and point href to people/<your-slug>/ -->
+        <a class="card person" href="people/elena-marquez/">
+          <div class="avatar" aria-hidden="true">EM</div>
+          <h3>Prof. Elena Márquez</h3>
+          <p class="role">Professor · Director</p>
+          <p class="interests">NLP, reasoning, multilingual models</p>
+        </a>
+        <a class="card person" href="people/david-okafor/">
+          <div class="avatar" aria-hidden="true">DO</div>
+          <h3>Prof. David Okafor</h3>
+          <p class="role">Associate Professor · Associate Director</p>
+          <p class="interests">Computer vision, robotics</p>
+        </a>
+        <a class="card person" href="people/sarah-lindqvist/">
+          <div class="avatar" aria-hidden="true">SL</div>
+          <h3>Dr. Sarah Lindqvist</h3>
+          <p class="role">Assistant Professor</p>
+          <p class="interests">Fairness, interpretability, AI policy</p>
+        </a>
+        <a class="card person" href="#">
+          <div class="avatar" aria-hidden="true">HT</div>
+          <h3>Prof. Hiroshi Tanaka</h3>
+          <p class="role">Professor</p>
+          <p class="interests">Learning theory, optimization</p>
+        </a>
+      </div>
+
+      <h2>Research staff &amp; postdocs</h2>
+      <ul class="people-list">
+        <li><strong>Dr. Amira Haddad</strong><span class="muted">Postdoctoral Fellow</span><span>Robust ML under distribution shift</span></li>
+        <li><strong>Dr. Tomás Ferreira</strong><span class="muted">Research Scientist</span><span>Efficient training, ML systems</span></li>
+        <li><strong>Maria Novak</strong><span class="muted">Center Coordinator</span><span>Operations, events, partnerships</span></li>
+      </ul>
+
+      <h2>PhD students</h2>
+      <ul class="people-list">
+        <li><strong>Alice Chen</strong><span class="muted">PhD, 4th year · Márquez</span><span>Faithful reasoning in LLMs</span></li>
+        <li><strong>Jin Park</strong><span class="muted">PhD, 3rd year · Okafor</span><span>Tactile manipulation</span></li>
+        <li><strong>Layla Haddad</strong><span class="muted">PhD, 3rd year · Lindqvist</span><span>Fairness auditing</span></li>
+        <li><strong>Marco Rossi</strong><span class="muted">PhD, 2nd year · Márquez</span><span>Low-resource NLP</span></li>
+        <li><strong>Priya Nair</strong><span class="muted">PhD, 1st year · Tanaka</span><span>Optimization for deep learning</span></li>
+      </ul>
+
+      <h2>Master's &amp; undergraduate researchers</h2>
+      <ul class="people-list">
+        <li><strong>Ethan Brooks</strong><span class="muted">MSc</span><span>Video understanding</span></li>
+        <li><strong>Sofia Ivanova</strong><span class="muted">BSc</span><span>Interpretability tools</span></li>
+        <li><strong>Daniel Kim</strong><span class="muted">BSc</span><span>Speech recognition for regional languages</span></li>
+      </ul>
+
+      <h2>Alumni</h2>
+      <ul class="people-list">
+        <li><strong>Dr. Nadia Petrova</strong><span class="muted">PhD 2025</span><span>Now: Research Scientist, [Company]</span></li>
+        <li><strong>Dr. Kwame Mensah</strong><span class="muted">PhD 2024</span><span>Now: Assistant Professor, [University]</span></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Center for AI Research, [University Name]<br>
+        Room 401, Science Building · 123 University Ave, City, Country</p>
+      <p><a href="mailto:ai-center@university.edu">ai-center@university.edu</a> ·
+        <a href="https://github.com/YOUR-ORG/YOUR-REPO">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications — Center for AI Research</title>
+  <meta name="description" content="Papers published by members of the Center for AI Research.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <strong>Center for AI Research</strong>
+        <span>[University Name] · Department of Computer Science</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html" aria-current="page">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="join.html">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="page-intro">
+        <p class="eyebrow">Publications</p>
+        <h1>Publications</h1>
+        <p>Selected papers by Center members. For complete lists, see each faculty member's page or Google Scholar profile.</p>
+      </section>
+
+      <div class="toolbar">
+        <input id="pub-search" type="search" placeholder="Search titles, authors, venues…" aria-label="Search publications">
+        <select id="pub-topic" aria-label="Filter by topic">
+          <option value="">All topics</option>
+          <option value="nlp">Language &amp; Reasoning</option>
+          <option value="vision">Vision &amp; Embodied AI</option>
+          <option value="theory">Theory &amp; Optimization</option>
+          <option value="responsible">Responsible AI</option>
+        </select>
+      </div>
+
+      <!-- Add a paper: copy an <li class="pub"> block. data-topics takes space-separated values: nlp vision theory responsible -->
+      <section class="pub-year">
+        <h2 class="year-heading">2026</h2>
+        <ul class="list">
+          <li class="pub" data-topics="nlp">
+            <span class="pub-title">Faithful Chain-of-Thought via Verifiable Intermediate Steps</span>
+            <span class="pub-authors">A. Chen, M. Rossi, E. Márquez</span><br>
+            <span class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 2026</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+          <li class="pub" data-topics="vision">
+            <span class="pub-title">Sim-to-Real Transfer for Dexterous Manipulation with Tactile Priors</span>
+            <span class="pub-authors">J. Park, D. Okafor</span><br>
+            <span class="pub-venue">Conference on Robot Learning (CoRL), 2026</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+          <li class="pub" data-topics="responsible">
+            <span class="pub-title">Auditing Fairness Under Distribution Shift</span>
+            <span class="pub-authors">L. Haddad, A. Haddad, S. Lindqvist</span><br>
+            <span class="pub-venue">ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2026</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+          <li class="pub" data-topics="theory">
+            <span class="pub-title">Sharpness-Aware Optimization Revisited: A Tighter Generalization Bound</span>
+            <span class="pub-authors">P. Nair, H. Tanaka</span><br>
+            <span class="pub-venue">International Conference on Machine Learning (ICML), 2026</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="pub-year">
+        <h2 class="year-heading">2025</h2>
+        <ul class="list">
+          <li class="pub" data-topics="nlp">
+            <span class="pub-title">OpenLingua: A Benchmark for Under-Resourced Regional Languages</span>
+            <span class="pub-authors">M. Rossi, D. Kim, E. Márquez</span><br>
+            <span class="pub-venue">Annual Meeting of the Association for Computational Linguistics (ACL), 2025</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+          <li class="pub" data-topics="vision">
+            <span class="pub-title">Self-Supervised 3D Scene Graphs from Egocentric Video</span>
+            <span class="pub-authors">E. Brooks, D. Okafor</span><br>
+            <span class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+          <li class="pub" data-topics="responsible nlp">
+            <span class="pub-title">Concept-Based Explanations for Clinical Risk Models</span>
+            <span class="pub-authors">S. Ivanova, S. Lindqvist, E. Márquez</span><br>
+            <span class="pub-venue">Machine Learning for Health (ML4H), 2025</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="pub-year">
+        <h2 class="year-heading">2024</h2>
+        <ul class="list">
+          <li class="pub" data-topics="theory">
+            <span class="pub-title">Low-Rank Adapters Provably Preserve Pretrained Features</span>
+            <span class="pub-authors">T. Ferreira, H. Tanaka</span><br>
+            <span class="pub-venue">International Conference on Learning Representations (ICLR), 2024</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+          <li class="pub" data-topics="vision">
+            <span class="pub-title">Robust Visual Navigation in Unstructured Outdoor Environments</span>
+            <span class="pub-authors">K. Mensah, D. Okafor</span><br>
+            <span class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2024</span>
+            <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Center for AI Research, [University Name]<br>
+        Room 401, Science Building · 123 University Ave, City, Country</p>
+      <p><a href="mailto:ai-center@university.edu">ai-center@university.edu</a> ·
+        <a href="https://github.com/YOUR-ORG/YOUR-REPO">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Center for AI Research</title>
+  <meta name="description" content="Research areas, projects and facilities.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <strong>Center for AI Research</strong>
+        <span>[University Name] · Department of Computer Science</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html" aria-current="page">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="join.html">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="page-intro">
+        <p class="eyebrow">Research</p>
+        <h1>Research overview</h1>
+        <p>Our work spans the full range from theory to deployed systems. Projects are often shared across groups. Below are our main research themes and some active projects.</p>
+      </section>
+
+      <section id="language">
+        <h2>Language &amp; Reasoning</h2>
+        <p>We study how language models represent knowledge and carry out reasoning, and how to make their outputs faithful and verifiable. We also build NLP resources for low-resource and regional languages.</p>
+        <div class="tags"><span class="tag">LLMs</span><span class="tag">Reasoning</span><span class="tag">Multilingual NLP</span><span class="tag">Evaluation</span></div>
+      </section>
+
+      <section id="vision">
+        <h2>Vision &amp; Embodied AI</h2>
+        <p>We develop models that perceive and act in the physical world, including 3D scene understanding, video models, and learning-based control for manipulation and navigation.</p>
+        <div class="tags"><span class="tag">Computer vision</span><span class="tag">Robotics</span><span class="tag">Sim-to-real</span><span class="tag">3D</span></div>
+      </section>
+
+      <section id="theory">
+        <h2>Learning Theory &amp; Optimization</h2>
+        <p>We work on why deep networks generalize, on efficient and stable training methods, and on learning when data and labels are scarce.</p>
+        <div class="tags"><span class="tag">Generalization</span><span class="tag">Optimization</span><span class="tag">Efficient ML</span></div>
+      </section>
+
+      <section id="responsible">
+        <h2>Responsible &amp; Trustworthy AI</h2>
+        <p>We develop methods for auditing fairness, explaining model behavior and keeping models robust under distribution shift. We work with social scientists and policymakers on how AI is governed.</p>
+        <div class="tags"><span class="tag">Fairness</span><span class="tag">Interpretability</span><span class="tag">Robustness</span><span class="tag">Policy</span></div>
+      </section>
+
+      <h2>Active projects</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>OpenLingua</h3>
+          <p>An open benchmark and model suite for 20+ under-resourced languages in our region.</p>
+          <p><a href="#">Project page</a> · <a href="#">Code</a></p>
+        </article>
+        <article class="card">
+          <h3>TactileSim</h3>
+          <p>A simulation platform for learning dexterous manipulation with tactile sensing.</p>
+          <p><a href="#">Project page</a> · <a href="#">Code</a></p>
+        </article>
+        <article class="card">
+          <h3>AI for Clinical Triage</h3>
+          <p>A collaboration with the University Hospital on decision-support tools that clinicians can interpret.</p>
+          <p><a href="#">Project page</a></p>
+        </article>
+        <article class="card">
+          <h3>FairShift</h3>
+          <p>Tools for monitoring fairness metrics of deployed models as data distributions change.</p>
+          <p><a href="#">Project page</a> · <a href="#">Code</a></p>
+        </article>
+      </div>
+
+      <h2>Facilities</h2>
+      <div class="prose">
+        <ul>
+          <li><strong>Compute cluster:</strong> 64 data-center GPUs with shared storage, available to all Center members.</li>
+          <li><strong>Robotics lab:</strong> two manipulator arms, mobile robots and a motion-capture space.</li>
+          <li><strong>Collaborative space:</strong> open-plan student offices, a seminar room and meeting rooms.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Center for AI Research, [University Name]<br>
+        Room 401, Science Building · 123 University Ave, City, Country</p>
+      <p><a href="mailto:ai-center@university.edu">ai-center@university.edu</a> ·
+        <a href="https://github.com/YOUR-ORG/YOUR-REPO">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
